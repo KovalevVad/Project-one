@@ -7,7 +7,7 @@
 .welcome{
     display: flex;
     flex: 1;
-    background-image: url(./Bitmap.png);
+    background-image: url(./image_other/Bitmap.png);
     background-size: cover;
     background-repeat: no-repeat;
      
@@ -125,7 +125,7 @@
 
 .list-block{
     z-index: 2;
-    background-image: url(./imageone.png);
+    background-image: url(./image_other/imageone.png);
     background-repeat: no-repeat;
     background-position-x: 77%;
     
@@ -202,7 +202,7 @@
     z-index: 0;
 
     position: absolute;
-    background-image: url(./image2.png);
+    background-image: url(./image_other/image2.png);
     
     margin-top: 168px;
     margin-right: 612px;
@@ -920,7 +920,7 @@
     display: block;
     width: 115px;
     height: 15px;
-    background-image: url(./Stars.png);
+    background-image: url(./image_other/Stars.png);
     background-repeat: no-repeat;
 
 }
@@ -930,7 +930,7 @@
     width: 1172px;
     height: 20px;
     position: absolute;
-    background-image: url(./Arrows.png);
+    background-image: url(./image_other/Arrows.png);
     margin-top: 238px;
 }
 
