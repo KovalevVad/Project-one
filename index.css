@@ -1,19 +1,25 @@
-#section-1, #section-2,#section-3{
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#section-1,
+#section-2,
+#section-3{
     height: 100vh;
     width: 100%;
     display: flex;
 }
 
-.welcome{
+.welcome {
     display: flex;
     flex: 1;
     background-image: url(./img/image_other/Bitmap.png);
     background-size: cover;
     background-repeat: no-repeat;
-     
+
 }
 
-#welcome_title{
+#welcome_title {
     display: flex;
     flex: 1;
     color: white;
@@ -23,23 +29,23 @@
     font-family: 'Oswald', sans-serif;
     gap: 24px;
     background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.4) 48%, rgba(0,0,0,1) 90%);
-    
+
 }
 
-#welcome_title h1{
+#welcome_title h1 {
     font-size: 72px;
     font-weight: 500;
     cursor: default;
+    font-family: 'Oswald', sans-serif;
 }
 
-#welcome_title p{
+#welcome_title p {
     font-size: 20px;
-    font-family: Open-Sans;
     letter-spacing: 1.28px;
     cursor: default;
 }
 
-#header{
+#header {
     position: absolute;
     width: 100%;
     display: flex;
@@ -55,34 +61,34 @@
     gap: 65px;
 }
 
-#menu a{
+#menu a {
     color: white;
     font-size: 14px;
     font-family: 'Oswald';
     letter-spacing: 2px;
-    text-decoration: none;  
+    text-decoration: none;
 }
-.menu_link{
+.menu_link {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;    
+    align-items: flex-end;
 }
-.menu_link > span{
+.menu_link > span {
     display: block;
-    width: 18px; 
+    width: 18px;
     height: 2px;
 
     content: " ";
-    background-color:  #4CAF50;  
-    transition: width 0.4s ease-in-out; 
+    background-color:  #4CAF50;
+    transition: width 0.4s ease-in-out;
 }
 
-.menu_link:hover > span{
+.menu_link:hover > span {
     width: 100%;
 }
 
 
-.page{
+.page {
     display: flex;
     position: absolute;
     bottom: 0;
@@ -93,7 +99,7 @@
     gap: 9px;
 }
 
-.page_item{
+.page_item {
     color:  #FFFFFF6F;
     font-size: 18px;
     font-family: 'Oswald';
@@ -102,7 +108,7 @@
 }
 
 
-.activ_page >p{
+.activ_page >p {
     color: white;
     font-size: 36px;
     font-family: 'Oswald';
@@ -110,34 +116,34 @@
 }
 
 
-#section-image{
+#section-image {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.list-image{
+.list-image {
     display: flex;
     width: 1182px;
-    height: 559px;  
+    height: 559px;
 }
 
-.list-block{
+.list-block {
     z-index: 2;
     background-image: url(./img/image_other/image-one.png);
     background-repeat: no-repeat;
     background-position-x: 77%;
-    
+
     width: 590px;
     height: 411px;
 }
-#list-block-1{
+#list-block-1 {
     margin-left: 19px;
     margin-top: 77px;
 }
 
-#list-block-1 > h1{
+#list-block-1 > p {
     font-size: 36px;
     font-family: 'Oswald';
     font-weight: 700;
@@ -145,9 +151,8 @@
     line-height: 53px;
 }
 
-#list-block-1 > h2{
+#list-block-1 > h2 {
     font-size: 42px;
-    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2.7px;
     color: #504E4E;
     font-style: normal;
@@ -155,7 +160,7 @@
     font-weight: 300;
 }
 
-#list-block-2{
+#list-block-2 {
     display: flex;
     width: 311px;
     height: 75px;
@@ -163,29 +168,28 @@
 
     margin-top: 32px;
     margin-left: 51px;
-    
+
 }
-#list-block-2>p{
+#list-block-2>p {
     width: 281px;
     line-height: 25px;
     letter-spacing: 1.26px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    
+
 }
 
-#list-block-2>span{
+#list-block-2>span {
     display: block;
     width: 20px;
     height: 2px;
-    
+
     background: #353535;
     margin-top: 12px;
     margin-right: 10px;
-    
+
 }
 
-.list-image > span{
+.list-image > span {
     position: absolute;
     width: 309px;
     height: 418px;
@@ -196,21 +200,21 @@
     margin-top: 62px;
     margin-left: 401px;
 }
-.list-block-two>span{
+.list-block-two>span {
     width: 309px;
     height: 391px;
     z-index: 0;
 
     position: absolute;
     background-image: url(./img/image_other/image-people.png);
-    
+
     margin-top: 168px;
     margin-right: 612px;
 }
- 
 
 
-#list-block-text-2{
+
+#list-block-text-2 {
     display: flex;
     width: 311px;
     height: 75px;
@@ -218,11 +222,11 @@
 
     flex-direction: row;
     position: absolute;
-    
+
     margin-top: 404px;
     margin-left:855px;
 }
-#list-block-text-2>span{
+#list-block-text-2>span {
     display: block;
     width: 20px;
     height: 2px;
@@ -231,23 +235,22 @@
     margin-top: 12px;
     margin-right: 10px;
 }
-#list-block-text-2 > p{
+#list-block-text-2 > p {
     width: 281px;
     line-height: 25px;
     letter-spacing: 1.26px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 
 }
 
-#section_block{
+#section_block {
     display: flex;
     justify-content: center;
     background: #f1f0f09d ;
     width: 100%;
     height: 100vh;
 }
-#services{
+#services {
     display: flex;
     width: 1180px;
     flex-direction: column;
@@ -256,51 +259,47 @@
     margin-left: 80px;
 }
 
-#our_services{
+#our_services {
     width: 284px;
     height: 74px;
     margin-left:0px;
     margin-top: 135px;
 }
 
-#our_services > h1{
+#our_services > p {
     font-family: "Oswald" ,sans-serif ;
     font-size: 48px;
     font-weight: 700;
     line-height: 71px;
-    letter-spacing: 3.07200026512146px;
+    letter-spacing: 3px;
     text-align: left;
 }
-#our_services > span{
+#our_services > span {
     display: block;
     width: 45px;
     height: 2px;
     background: #252525;
 }
 
-
-#menu_card{
+#menu_card {
     display: flex;
     gap: 28px;
-    
-    
 }
-.card{
+.card {
     display: block;
     width: 373px;
     height: 260px;
-    background:white; 
+    background:white;
 }
 
-.card_underline > span{
+.card_underline > span {
     display: block;
     height: 3px;
     width: 0px;
     background: rgba(112, 191, 115, 1);
-
 }
 
-.card_underline:hover > span{
+.card_underline:hover > span {
     display: block;
     height: 3px;
     width: 373px;
@@ -309,22 +308,21 @@
 
 }
 
-
 .branding_design {
     margin-top: 53px;
     margin-left: 44px;
 }
-.branding_design > h1{
+.branding_design > p {
     font-family: "Oswald" ,sans-serif ;
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
-    letter-spacing: 1.28000009059906px;
+    letter-spacing: 1.2px;
     text-align: left;
     color: #252525;
 }
 
-.branding_design > span{
+.branding_design > span {
     display: block;
     width: 35px;
     height: 2px;
@@ -332,24 +330,23 @@
     margin-top: 15px;
 }
 
-.card  >p{
+.card  >p {
     display: block;
     width: 281px;
     height: 75px;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 25px;
     letter-spacing: 1px;
-    
+
     margin-left: 43px;
     margin-top: 19px;
 }
 
-.card > a{
+.card > a {
     display: block;
     color: #252525;
-    
+
     font-family: "Oswald" ,sans-serif ;
     font-size: 10px;
     font-weight: 300;
@@ -369,7 +366,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    
+
     background-image: url(./img/services_image/graphic-design.png);
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px 0px rgba(219, 219, 219, 1);
@@ -384,7 +381,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    
+
     background-image: url(./img/services_image/pencil-case.png);
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px 0px rgba(219, 219, 219, 1);
@@ -399,7 +396,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    
+
     background-image: url(./img/services_image/coding.png);
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px 0px rgba(219, 219, 219, 1);
@@ -408,7 +405,7 @@
     margin: 50px 48px 160px 275px;
 }
 
-.header_card{
+.header_card {
     display: flex;
     justify-content: space-between;
 }
@@ -419,45 +416,44 @@
     height: 1652px;
     margin: auto;
     margin-top: 142px;
-    
+
 }
 
-#latest_works_block_1{
+#latest_works_block_1 {
     display: flex;
     position: absolute;
     width: 291px;
     height: 130px;
     flex-direction: column;
 
-    
     margin-top: 57px;
     margin-left: 10px;
 }
 
-#latest_works_block_1 > h1{
+#latest_works_block_1 > p {
     display: block;
     width: 289px;
-    
+
     font-family: "Oswald" ,sans-serif ;
     font-size: 48px;
     font-weight: 700;
     line-height: 71px;
     letter-spacing: 3px;
-    text-align: left;  
+    text-align: left;
     color: rgba(37, 37, 37, 1);
 
-    margin-top: 12px;   
+    margin-top: 12px;
 }
 
-#latest_works_block_1 > span{
+#latest_works_block_1 > span {
     width: 45px;
     height: 2px;
     background: rgba(37, 37, 37, 1);
 
-    margin-top:15px; 
+    margin-top:15px;
 }
 
-#latest_works_header{
+#latest_works_header {
     display: flex;
     position: absolute;
     width: 549px;
@@ -468,8 +464,7 @@
     margin-top: 182px;
 }
 
-#latest_works_header > a{
-    font-family: 'Open Sans', sans-serif;
+#latest_works_header > a {
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.8px;
@@ -477,11 +472,9 @@
     text-decoration: none;
     opacity: 30%;
     color: rgba(37, 37, 37, 1);
-    
 }
 
-#latest_works_header > a:hover{
-    font-family: 'Open Sans', sans-serif;
+#latest_works_header > a:hover {
     font-weight: 700;
     font-size: 13px;
     line-height: 15px;
@@ -490,15 +483,15 @@
     text-decoration: none;
     opacity: 100%;
     color:black;
-    transition: 0.5s;   
+    transition: 0.5s;
 }
 
-#latest_works_block_2{
+#latest_works_block_2 {
     display: block;
     width: 584px;
     height: 586px;
     position: absolute;
-    
+
     background-image: url(./img/image_section_4/image-1.png);
     background-repeat: no-repeat;
     background-position: bottom 112px right 0px;
@@ -508,7 +501,7 @@
     margin-left: 595px;
 }
 
-#latest_works_block_2 > h1{
+#latest_works_block_2 > span {
     display: block;
     width: 295px;
     height: 142px;
@@ -525,44 +518,41 @@
     margin-top: 262px;
 }
 
-#latest_works_block_2 > h2{
+#latest_works_block_2 > h2 {
     display: block;
     width: 116px;
     height: 25px;
     position: absolute;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 21px;
     letter-spacing: 1.15px;
     text-align: right;
     color:rgba(37, 37, 37, 1);
-    
+
     margin-left: 343px;
     margin-top: 492px;
 }
 
-#latest_works_block_2 > p{
+#latest_works_block_2 > p {
     display: block;
     width: 336px;
     height: 46px;
     position: absolute;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 300;
     line-height: 23px;
     letter-spacing: 0.8px;
     text-align: right;
     color: rgba(194, 194, 194, 1);
-    
+
     margin-top: 530px;
     margin-left: 123px;
-
 }
 
-#latest_works_block_3{
+#latest_works_block_3 {
     display: block;
     width: 584px;
     height: 596px;
@@ -576,7 +566,7 @@
     margin-left: 0px;
 }
 
-#latest_works_block_3 > h1{
+#latest_works_block_3 > span {
     display: block;
     width: 208px;
     height: 142px;
@@ -594,62 +584,59 @@
     margin-top: 268px;
 }
 
-#latest_works_block_3 > h2{
+#latest_works_block_3 > h2 {
     display: block;
     width: 116px;
     height: 25px;
     position: absolute;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 21px;
     letter-spacing: 1.15px;
     text-align: right;
     color:rgba(37, 37, 37, 1);
-    
+
     margin-left: 174px;
     margin-top: 467px;
 }
 
-#latest_works_block_3 > p{
+#latest_works_block_3 > p {
     display: block;
     width: 336px;
     height: 46px;
     position: absolute;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 300;
     line-height: 23px;
     letter-spacing: 0.8px;
     text-align: left;
     color: rgba(194, 194, 194, 1);
-    
+
     margin-top: 512px;
     margin-left: 174px;
 }
 
-#latest_works_block_3 > a{
+#latest_works_block_3 > a {
     display: block;
     width: 81px;
     height: 18px;
     position: absolute;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 15px;
     font-weight: 600;
     letter-spacing: 0.8px;
     text-align: left;
-    color:rgba(37, 37, 37, 1); 
+    color:rgba(37, 37, 37, 1);
     text-decoration: line-through rgba(112, 191, 115, 1) 3px;
-    
+
     margin-top: 578px;
     margin-left: 174px;
 }
 
-#latest_works_block_4{
+#latest_works_block_4 {
     display: block;
     width: 584px;
     height: 555px;
@@ -663,7 +650,7 @@
     margin-left: 601px;
 }
 
-#latest_works_block_4 > h1{
+#latest_works_block_4 > span {
     display: block;
     width: 405px;
     height: 142px;
@@ -680,43 +667,41 @@
     margin-top: 262px;
 }
 
-#latest_works_block_4 > h2{
+#latest_works_block_4 > h2 {
     display: block;
     width: 116px;
     height: 25px;
     position: absolute;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 21px;
     letter-spacing: 1.15px;
     text-align: right;
     color:rgba(37, 37, 37, 1);
-    
+
     margin-left: 337px;
     margin-top: 467px;
 }
 
-#latest_works_block_4 > p{
+#latest_works_block_4 > p {
     display: block;
     width: 336px;
     height: 46px;
     position: absolute;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 300;
     line-height: 23px;
     letter-spacing: 0.8px;
     text-align: right;
     color: rgba(194, 194, 194, 1);
-    
+
     margin-top: 509px;
     margin-left: 117px;
 }
 
-#latest_works_block_5{
+#latest_works_block_5 {
     display: block;
     width: 609px;
     height: 558px;
@@ -730,7 +715,7 @@
     margin-right: 570px;
 }
 
-#latest_works_block_5 > h1{
+#latest_works_block_5 > span {
     display: block;
     width: 239px;
     height: 142px;
@@ -741,47 +726,44 @@
     font-weight: 300;
     line-height: 71px;
     letter-spacing: 3px;
-    
 
     margin-left: 370px;
     margin-top: 268px;
 }
 
-#latest_works_block_5 > h2{
+#latest_works_block_5 > h2 {
     display: block;
     width: 116px;
     height: 25px;
     position: absolute;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 21px;
     letter-spacing: 1.15px;
     color:rgba(37, 37, 37, 1);
-    
+
     margin-left: 174px;
     margin-top: 467px;
 }
 
-#latest_works_block_5 > p{
+#latest_works_block_5 > p {
     display: block;
     width: 336px;
     height: 46px;
     position: absolute;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 300;
     line-height: 23px;
     letter-spacing: 0.8px;
     color: rgba(194, 194, 194, 1);
-    
+
     margin-top: 512px;
     margin-left: 174px;
 }
 
-#view_more{
+#view_more {
     display: block;
     width: 69px;
     height: 19px;
@@ -798,35 +780,34 @@
     margin-left: 1118px;
 }
 
-#section-5{
+#section-5 {
   display: flex;
   width: 100%;
-  height: 100vh; 
+  height: 100vh;
   background: rgba(251, 251, 251, 1);
   justify-content: center;
 
   margin-top: 100px;
 }
 
-#TEAM{
+#TEAM {
     display: flex;
     width: 1166px;
     height: 550px;
     flex-direction: column;
-    
 
     gap: 71px;
 }
 
-#team_header{
+#team_header {
     display: block;
     width: 205px;
     height: 74px;
-    
+
     margin-top: 135px;
 }
 
-#team_header > h1{
+#team_header > p {
     display: block;
     width: 205px;
     height: 71px;
@@ -839,14 +820,14 @@
     text-align: left;
 }
 
-#team_header > span{
+#team_header > span {
     display: block;
     width: 45px;
     height: 2px;
-    background: rgba(37, 37, 37, 1);    
+    background: rgba(37, 37, 37, 1);
 }
 
-#image_team{
+#image_team {
     display: flex;
     flex-direction: row;
     gap: 28px;
@@ -871,31 +852,30 @@
     gap: 30px;
 }
 
-#reviews > p{
+#reviews > p {
     display: block ;
     width: 735px;
     height: 93px;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 31px;
     letter-spacing: 0.8px;
     text-align: center;
 }
 
-#reviews > img{
+#reviews > img {
     display: block;
     width: 20px;
     height: 20px;
 }
 
-#reviews_name{
+#reviews_name {
     display: flex;
     width: 182px;
     height: 27px;
 }
 
-#reviews_name > p{
+#reviews_name > p {
     font-family: "Oswald" ,sans-serif ;
     font-size: 18px;
     font-weight: 400;
@@ -904,7 +884,7 @@
     text-align: center;
 }
 
-#reviews_name > span{
+#reviews_name > span {
   font-family: "Oswald" ,sans-serif ;
   font-size: 14px;
   font-weight: 300;
@@ -916,7 +896,7 @@
   margin-top: 3px;
   margin-left: 7px;
 }
-#stars{
+#stars {
     display: block;
     width: 115px;
     height: 15px;
@@ -925,7 +905,7 @@
 
 }
 
-#arrows{
+#arrows {
     display: block;
     width: 1172px;
     height: 20px;
@@ -934,7 +914,7 @@
     margin-top: 238px;
 }
 
-#reviews>span{
+#reviews>span {
     display: block;
     width: 511px;
     height: 1px;
@@ -943,12 +923,12 @@
     margin-top: 269px;
     opacity: 50%;
 }
-#section-7{
+#section-7 {
     display: flex;
     width: 100%;
     height: 300px;
 }
-#Work_Together{
+#Work_Together {
     display: flex;
     width: 50%;
     height: 300px;
@@ -956,11 +936,9 @@
     flex-direction: column;
     align-items: center;
     background: rgba(251, 251, 251, 1);
-
-    
 }
 
-#Work_Together > img{
+#Work_Together > img {
     display: block;
     width: 35px;
     height: 35px;
@@ -968,7 +946,7 @@
     margin-top: 69px;
 }
 
-#Work_Together > h1{
+#Work_Together > p {
     display: block;
     width: 264px;
     height: 36px;
@@ -983,12 +961,11 @@
     margin-top: 19px;
 }
 
-#Work_Together > span{
+#Work_Together > span {
     display: block;
     width: 279px;
     height: 19px;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 1.5px;
@@ -998,8 +975,7 @@
     margin-top: 22px;
 }
 
-
-#ContactUs{
+#ContactUs {
     display: flex;
     width: 50%;
     height: 300px;
@@ -1009,7 +985,7 @@
     align-items: center;
 }
 
-#ContactUs > img{
+#ContactUs > img {
     display: block;
     width: 35px;
     height: 35px;
@@ -1017,7 +993,7 @@
     margin-top: 72px;
 }
 
-#ContactUs > h1{
+#ContactUs > p {
     display: block;
     width: 120px;
     height: 36px;
@@ -1033,12 +1009,11 @@
     margin-top: 16px;
 }
 
-#ContactUs > span{
+#ContactUs > span {
     display: block;
     width: 98px;
     height: 19px;
 
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 1.5px;
@@ -1049,7 +1024,7 @@
     margin-top: 22px;
 }
 
-#footer{
+#footer {
     display: flex;
     width: 100%;
     height: 339px;
@@ -1059,7 +1034,7 @@
     justify-content: center;
 }
 
-.footer_adress{
+.footer_adress {
     display: block;
     width: 259px;
     height: 17px;
@@ -1072,11 +1047,11 @@
     opacity: 50%;
     text-align: center;
     color:rgba(255, 255, 255, 1);
-    
+
     margin-top: 10px;
 }
 
-#social{
+#social {
     display: flex;
     width: 138px;
     height: 32px;
