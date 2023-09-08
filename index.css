@@ -7,7 +7,7 @@
 .welcome{
     display: flex;
     flex: 1;
-    background-image: url(./image_other/Bitmap.png);
+    background-image: url(./img/image_other/Bitmap.png);
     background-size: cover;
     background-repeat: no-repeat;
      
@@ -125,7 +125,7 @@
 
 .list-block{
     z-index: 2;
-    background-image: url(./image_other/imageone.png);
+    background-image: url(./img/image_other/image-one.png);
     background-repeat: no-repeat;
     background-position-x: 77%;
     
@@ -202,7 +202,7 @@
     z-index: 0;
 
     position: absolute;
-    background-image: url(./image_other/image2.png);
+    background-image: url(./img/image_other/image-people.png);
     
     margin-top: 168px;
     margin-right: 612px;
@@ -370,7 +370,7 @@
     height: 50px;
     border-radius: 50%;
     
-    background-image: url(./services_image/graphic-design.png);
+    background-image: url(./img/services_image/graphic-design.png);
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px 0px rgba(219, 219, 219, 1);
     background-position: center center;
@@ -385,7 +385,7 @@
     height: 50px;
     border-radius: 50%;
     
-    background-image: url(./services_image/pencil-case.png);
+    background-image: url(./img/services_image/pencil-case.png);
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px 0px rgba(219, 219, 219, 1);
     background-position: center center;
@@ -400,7 +400,7 @@
     height: 50px;
     border-radius: 50%;
     
-    background-image: url(./services_image/coding.png);
+    background-image: url(./img/services_image/coding.png);
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px 0px rgba(219, 219, 219, 1);
     background-position: center center;
@@ -499,7 +499,7 @@
     height: 586px;
     position: absolute;
     
-    background-image: url(./image_section_4/image_1.png);
+    background-image: url(./img/image_section_4/image-1.png);
     background-repeat: no-repeat;
     background-position: bottom 112px right 0px;
 
@@ -568,7 +568,7 @@
     height: 596px;
     position: absolute;
 
-    background-image: url(./image_section_4/image_2.png);
+    background-image: url(./img/image_section_4/image-2.png);
     background-repeat: no-repeat;
     background-position: bottom 152px left 0px;
 
@@ -655,7 +655,7 @@
     height: 555px;
     position: absolute;
 
-    background-image: url(./image_section_4/image_3.png);
+    background-image: url(./img/image_section_4/image-3.png);
     background-repeat: no-repeat;
     background-position: bottom 111px left 129px;
 
@@ -722,7 +722,7 @@
     height: 558px;
     position: absolute;
 
-    background-image: url(./image_section_4/image_4.png);
+    background-image: url(./img/image_section_4/image-4.png);
     background-repeat: no-repeat;
     background-position: bottom 114px right 154px;
 
@@ -920,7 +920,7 @@
     display: block;
     width: 115px;
     height: 15px;
-    background-image: url(./image_other/Stars.png);
+    background-image: url(./img/image_other/Stars.png);
     background-repeat: no-repeat;
 
 }
@@ -930,7 +930,7 @@
     width: 1172px;
     height: 20px;
     position: absolute;
-    background-image: url(./image_other/Arrows.png);
+    background-image: url(./img/image_other/Arrows.png);
     margin-top: 238px;
 }
 
